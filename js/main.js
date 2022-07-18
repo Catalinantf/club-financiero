@@ -85,3 +85,36 @@ $(function() {
 	siteMenuClone();
 
 });
+function irArriba(pxPantalla) {
+	window.addEventListener("scroll", () => {
+	  let scroll = document.documentElement.scrollTop;
+	  let botonArriba = document.getElementById("botonArriba");
+	  if (scroll > pxPantalla) {
+		botonArriba.style.right = 20 + "px";
+	  } else {
+		botonArriba.style.right = -100 + "px";
+	  }
+	});
+  }
+
+  irArriba(500);
+
+$(function(){
+
+  $("a").click(function(event){
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var gato = this.hash;
+
+      $("html, body").animate({
+        scrollTop: $(gato).offset().top
+      }, 800, function(){
+        window.location.hash = gato;
+      });
+    }
+  });
+
+  $('[data-toggle="popover"]').popover();
+
+});

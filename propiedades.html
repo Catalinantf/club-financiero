@@ -34,7 +34,8 @@
 
 <body>
   <div>
-    <!-- Navbar -->
+    <div id="top"></div>
+  <!-- Navbar -->
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -106,22 +107,16 @@
                       <a href="./Nosotros.html"><span> Nosotros</span></a>
                     </li>
                     <li class="has-children">
-                      <a href="productos.html"><span>Productos</span></a>
+                      <a href="./productos.html"><span>Productos</span></a>
                       <ul class="dropdown arrow-top">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
-                        <li class="has-children">
-                          <a href="#">Dropdown</a>
-                          <ul class="dropdown">
-                            <li><a href="#">Menu One</a></li>
-                            <li><a href="#">Menu Two</a></li>
-                            <li><a href="#">Menu Three</a></li>
-                            <li><a href="#">Menu Four</a></li>
-                          </ul>
-                        </li>
+                          <li><a href="#">Gestión de crédito</a></li>
+                          <li><a href="#">Corretaje de propiedades</a></li>
+                          <li><a href="#">Gestión documental</a></li>
+                          </li>
+                          <li><a href="#">Preparación de crédito</a></li>
+                          <li><a href="#">Broker inmobiliario</a></li>
                       </ul>
-                    </li>
+                  </li>
                     <li class="active">
                       <a href="./propiedades.html"><span> Propiedades</span>
                       </a>
@@ -153,7 +148,7 @@
                       </ul>
                     </li>
                     <li>
-                      <a href="cotiza.html"><span> Cotiza </span></a>
+                      <a type="button" class="btn btn-outline-warning py-2 px-3" href="cotiza.html">Cotiza</a>
                     </li>
                   </ul>
                 </div>
@@ -229,19 +224,28 @@
   <section class="pl-2 ml-2 pl-md-5 ml-md-5">
     <div id="projects_results" class="d-inline-flex justify-content-start align-items-start flex-wrap"></div>
   </section>
-  <footer>
-    <div class="">
-      <a href="https://www.facebook.com/clubfinancierocl" target="_blank" class="p-2 pl-0"><span
-          class="fa-2x fa-brands fa-facebook"></span></a>
-      <a href="https://www.instagram.com/clubfinancierocl/" target="_blank" class="p-2 pl-0"><span
-          class="fa-2x fa fa-instagram"></span></a>
-    </div>
-    <div>
-      <a href="tel:+569 55281460" class="d-flex align-items-center mr-auto">
-        <span class="icon-phone mr-2"></span>
-        <span class="d-none d-md-inline-block">(+56)9 55281460</span>
-      </a>
-      <h6>Club Financiero © TODOS LOS DERECHOS RESERVADOS</h6>
+  <footer class="p-5 bg-primary">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8">
+          <h6 class="text-white">Club Financiero © <strong> TODOS LOS DERECHOS RESERVADOS</strong></h6>
+        </div>
+        <div class="col-sm-4">
+          <div class="row">
+            <div class="col p-2">
+              <a href=https://www.instagram.com/clubfinancierocl /><i class="text-white fa-2x fab fa-instagram"></i></a>
+            </div>
+            <div class="col p-2">
+              <a href="https://www.facebook.com/clubfinancierocl"><i class="text-white p-auto fab fa-facebook
+               fa-2x"></i></a>
+
+            </div>
+          </div>
+          <a type="button" href="#top" class="btn btn-lg btn-outline-warning" id="botonArriba"><i
+              class="px-2 fas fa-chevron-up text-warning" aria-hidden="true"></i></a>
+        </div>
+
+      </div>
     </div>
   </footer>
 

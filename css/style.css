@@ -26,9 +26,6 @@ body.offcanvas-menu:before {
   z-index: 1002;
   visibility: visible;
 }
-/* div{
-  margin
-} */
 
 p {
   color: #b3b3b3;
@@ -578,11 +575,11 @@ a:hover {
   background-image: url(../images/2hero.png);
   background-size: cover;
 }
-.google-maps-seccion {
-  text-decoration: none;
-  color: #f8f9fa;
-  list-style: none;
-
+.google-maps-seccion-ul > li > a {
+  color: #f8f9fa !important;
+}
+.google-maps-seccion-ul > li > a:hover {
+  color: #0059af !important;
 }
 .aside-bold {
   font-weight: bold;
@@ -590,10 +587,7 @@ a:hover {
 .descipción-servicios-section i {
   color: #00103e;
 }
-footer a {
-color: #00103e!important;
 
-}
 /* .dot {
   height: 25px;
   width: 25px;
@@ -601,4 +595,21 @@ color: #00103e!important;
   border-radius: 50%;
   display: inline-block;
 } */
+#botonArriba {
+  position: fixed;
+  bottom: 20px;
+  right: -100px;
+  transition: all 1s;
+}
+.carousel-indicators {
+  top: 50px;
+}
 
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+li {
+  list-style: none;
+}
