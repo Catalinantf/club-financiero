@@ -8,12 +8,14 @@
     <!-- Fontawesome-->
     <script src="https://kit.fontawesome.com/0512ef3fc6.js" crossorigin="anonymous"></script>
     <!--Google Fonts-->
-
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+      rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap"
-        rel="stylesheet" />
 
     <link rel="stylesheet" href="fonts/icomoon/style.css" />
 
@@ -24,6 +26,7 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fancybox.css" />
 
     <link rel="shortcut icon" href="./images/favicon-cf.png" type="image/x-icon" />
 
@@ -34,7 +37,7 @@
 
 <body>
     <div id="top"></div>
-  <!-- Navbar -->
+    <!-- Navbar -->
     <div>
         <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
@@ -115,48 +118,47 @@
                                         <li class="has-children">
                                             <a href="./productos.html"><span>Productos</span></a>
                                             <ul class="dropdown arrow-top">
-                                                <li><a href="#">Gestión de crédito</a></li>
+                                                <li><a href="./gestion-credito.html">Gestión de crédito</a></li>
                                                 <li><a href="#">Corretaje de propiedades</a></li>
                                                 <li><a href="#">Gestión documental</a></li>
-                                                </li>
-                                                <li><a href="#">Preparación de crédito</a></li>
-                                                <li><a href="#">Broker inmobiliario</a></li>
-                                            </ul>
                                         </li>
-                                        <li>
-                                            <a href="./propiedades.html"><span> Propiedades</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="educacion.html"><span> Educación</span></a>
-                                        </li>
-                                        <li class="active">
-                                            <a href="casos-exito.html"><span> Casos de Éxito</span></a>
-                                        </li>
-                                        <li class="has-children">
-                                            <a href="#"><span>Ayuda</span></a>
-                                            <ul class="dropdown arrow-top">
-                                                <li><a href="#">Menu One</a></li>
-                                                <li>
-                                                    <a href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
-                                                </li>
-                                                <li><a href="contacto.html">Contacto</a></li>
-                                                <li><a href="#">Menu Three</a></li>
-                                                <li class="has-children">
-                                                    <a href="#">Dropdown</a>
-                                                    <ul class="dropdown">
-                                                        <li><a href="#">Menu One</a></li>
-                                                        <li><a href="#">Menu Two</a></li>
-                                                        <li><a href="#">Menu Three</a></li>
-                                                        <li><a href="#">Menu Four</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a type="button" class="btn btn-outline-warning py-2 px-3"
-                                                href="cotiza.html">Cotiza</a>
-                                        </li>
+                                        <li><a href="#">Preparación de crédito</a></li>
+                                        <li><a href="#">Broker inmobiliario</a></li>
+                                    </ul>
+                                    </li>
+                                    <li>
+                                        <a href="./propiedades.html"><span> Propiedades</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="educacion.html"><span> Educación</span></a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="casos-exito.html"><span> Casos de Éxito</span></a>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="#"><span>Ayuda</span></a>
+                                        <ul class="dropdown arrow-top">
+                                            <li><a href="#">Menu One</a></li>
+                                            <li>
+                                                <a href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                                            </li>
+                                            <li><a href="contacto.html">Contacto</a></li>
+                                            <li><a href="#">Menu Three</a></li>
+                                            <li class="has-children">
+                                                <a href="#">Dropdown</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">Menu One</a></li>
+                                                    <li><a href="#">Menu Two</a></li>
+                                                    <li><a href="#">Menu Three</a></li>
+                                                    <li><a href="#">Menu Four</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a type="button" class="btn btn-outline-warning py-2 px-3" href="contacto.html">Contacto</a>
+                                    </li>
                                     </ul>
                                 </div>
                             </nav>
@@ -166,179 +168,191 @@
             </div>
         </div>
     </div>
-    <div class="hero" style="background-image: url('images/3hero.png')"></div>
+    <div class="hero pb-5" style="background-image: url('images/3hero.png')">
+        <img src="./images/logo CF.svg" alt="" style="width: 8rem;" />
+        <h2 class="pb-5">Casos de Éxito</h2>
+        <br>
+      </div>
     <!-- fin Navbar -->
 
-    <h3 class="p-5 mt-3">Casos de Éxito</h3>
-    <div class="container py-5">
-        <div class="row text-center">
-            <div class="col-sm">
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/Ángela.mp4" type="video/mp4">
-                </video>
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/Testimonios!!.mp4" type="video/mp4">
-                </video>
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/ricardo valentina.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="col-sm">
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/Testiimonios mijail .mp4" type="video/mp4">
-                </video>
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/Testiimonios.mp4" type="video/mp4">
-                </video>
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/Testimonio angela.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="col-sm">
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/Testimonio Max.mp4" type="video/mp4">
-                </video>
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/Testimonio ronaldo.mp4" type="video/mp4">
-                </video>
-                <video class="pb-3" width="auto" height="500" controls>
-                    <source src="./images/testimonios/Leo.mp4" type="video/mp4">
-                </video>
+    <div class="bg-primary py-5">
+
+        <div class="templateux-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/Ángela.mp4" data-fancybox="gallery"
+                            data-caption="Caption #1"><img src="/images/testimonios/Ángela.jpg" alt="Angela"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/Testimonios!!.mp4" data-fancybox="gallery"
+                            data-caption="Caption #2"><img src="/images/testimonios/francisca.jpg" alt="Francisca"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/ricardo valentina.mp4" data-fancybox="gallery"
+                            data-caption="Caption #3"><img src="/images/testimonios/vale-ricardo.jpg" alt="vale-ricardo"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/Testiimonios mijail .mp4" data-fancybox="gallery"
+                            data-caption="Caption #4"><img src="/images/testimonios/mijail.jpg" alt="Mijail"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/Testiimonios.mp4" data-fancybox="gallery"
+                            data-caption="Caption #5"><img src="/images/testimonios/florencia.png" alt="Florencia"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/Testimonio angela.mp4" data-fancybox="gallery"
+                            data-caption="Caption #6"><img src="/images/testimonios/angela 2.png" alt="Angela 2"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/Testimonio Max.mp4" data-fancybox="gallery"
+                            data-caption="Caption #7"><img src="/images/testimonios/maximiliano.jpg" alt="Maximiliano"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/Testimonio ronaldo.mp4" data-fancybox="gallery"
+                            data-caption="Caption #8"><img src="/images/testimonios/ronaldo.jpg" alt="Ronaldo"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/Leo.mp4" data-fancybox="gallery" data-caption="Caption #9"><img
+                                src="/images/testimonios/Leo.jpg" alt="Leo" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <a href="./images/testimonios/dante.mp4" data-fancybox="gallery" data-caption="Caption #10"><img
+                                src="/images/testimonios/dante.jpg" alt="Leo" class="img-fluid"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    </div>
 
-
-
-
-    <section class="redes-sociales-section row">
-        <span class="col-md text-center">
-            <a href="https://www.facebook.com/clubfinancierocl" target="_blank"
-                class="p-4 fa-4x fab fa-facebook-square dot"></a>
-
+    <section class="redes-sociales-section container mt-5">
+        <div class=" row">
+          <div class="col-md text-center">
+            <a href="https://www.facebook.com/clubfinancierocl" target="_blank" class="m-4 fa-7x fab fa-facebook"></a>
+    
             <h6 class="pb-5">facebook</h6>
-        </span>
-        <span class="col-md text-center">
+          </div>
+          <span class="col-md text-center">
             <a href="https://www.instagram.com/clubfinancierocl/" target="_blank"
-                class="p-4 fa-4x fab fa-instagram-square dot"></a>
-
+              class="m-4 fa-4x dot fab fa-instagram"></a>
+    
             <h6 class="pb-5">instagram</h6>
-        </span>
-        <span class="col-md text-center">
-            <a href="mailto:contacto@clubfinanciero.cl" target="_blank"
-                class="p-4 fa-4x fas fa-envelope-square dot"></a>
+          </span>
+          <span class="col-md text-center">
+            <a href="mailto:contacto@clubfinanciero.cl" target="_blank" class="m-4 fa-4x dot fas fa-envelope"></a>
             <h6 class="pb-5">e-mail</h6>
-        </span>
-        <span class="col-md text-center">
-            <a href="tel:+569 55281460" target="_blank" class="p-4 fa-4x fas fa-phone-square dot"></a>
-
+          </span>
+          <span class="col-md text-center">
+            <a href="tel:+569 55281460" target="_blank" class="m-4 fa-4x dot fas fa-phone"></a>
+    
             <h6 class="pb-5">teléfono</h6>
-        </span>
-    </section>
-    <section class="google-maps-seccion">
+          </span>
+        </div>
+      </section>
+    
+    
+    
+      </section>
+      <section class="google-maps-seccion">
         <div class="text-center">
-            <img src="./images/logo CF.svg" alt="" class="w-25 p-5" />
+          <img src="./images/logo CF.svg" alt="" />
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h5>menú</h5>
-                    <ul>
-                        <li>
-                            <a href="./index.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>
-                                Inicio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./Nosotros.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>
-                                Nosotros
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./contacto.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>
-                                Contacto
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>links relacionados</h5>
-                    <ul>
-                        <li>
-                            <a href="" target="_blank"><i <i class="px-2 fa fa-check" aria-hidden="true"></i> Dicom
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank"><i <i class="px-2 fa fa-check" aria-hidden="true"></i> SBIF
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank"><i <i class="px-2 fa fa-check" aria-hidden="true"></i> Camara de
-                                Comercio
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h5>Horario</h5>
-                    <ul>
-                        <li>
-                            <i <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Lun · Vie =
-                            10:00 · 17:00
-                        </li>
-                        <li>
-                            <i <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Sábado =
-                            Cerrado
-                        </li>
-                        <li>
-                            <i <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Domingo =
-                            Cerrado
-                        </li>
-                    </ul>
-                </div>
+          <div class="row">
+            <div class="col">
+              <h4 class="text-center">menú</h4>
+              <ul class="google-maps-seccion-ul">
+                <li>
+                  <a href="./index.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>Inicio</a>
+                </li>
+                <li>
+                  <a href="./Nosotros.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>Nosotros</a>
+                </li>
+                <li>
+                  <a href="./contacto.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>Contacto</a>
+                </li>
+              </ul>
             </div>
+            <div class="col">
+              <h4 class="text-center">links relacionados</h4>
+              <ul class="google-maps-seccion-ul">
+                <li>
+                  <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>Dicom</a>
+                </li>
+                <li>
+                  <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>SBIF</a>
+                </li>
+                <li>
+                  <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>Camara de Comercio</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <h4 class="text-center">Horario</h4>
+              <ul class="google-maps-seccion-ul">
+                <li>
+                  <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Lun · Vie = 10:00 · 17:00
+                </li>
+                <li>
+                  <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Sábado = Cerrado
+                </li>
+                <li>
+                  <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Domingo = Cerrado
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="google-maps py-5 text-center">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.280796305413!2d-70.65472798577304!3d-33.44199018077635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a6bf2b3071%3A0xe27a85525d46999c!2sMoneda%201137%2C%20Santiago%2C%208340457%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1656711190268!5m2!1sen!2scl"
-                width="75%" height="200" style="border: 0" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" class="my-3"></iframe>
-            <p class="pt-3 text-center">
-                RAZÓN SOCIAL = Club Financiero · | RUT = | REPRESENTANTE LEGAL = RUT:
-            </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.280796305413!2d-70.65472798577304!3d-33.44199018077635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a6bf2b3071%3A0xe27a85525d46999c!2sMoneda%201137%2C%20Santiago%2C%208340457%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1656711190268!5m2!1sen!2scl"
+            width="75%" height="200" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="my-3"></iframe>
+          <h6 class="pt-3 text-center">
+            RAZÓN SOCIAL = Club Financiero · | RUT = | REPRESENTANTE LEGAL = RUT:
+          </h6>
         </div>
-    </section>
-    <footer class="p-5 bg-primary">
+      </section>
+      <footer class="p-5 bg-primary">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-8">
-                    <h6 class="text-white">Club Financiero © <strong> TODOS LOS DERECHOS RESERVADOS</strong></h6>
-                </div>
-                <div class="col-sm-4">
-                    <div class="row">
-                        <div class="col p-2">
-                            <a href="https://www.instagram.com/clubfinancierocl" target="_blank" /><i
-                                class="text-white fa-2x fab fa-instagram"></i></a>
-                        </div>
-                        <div class="col p-2">
-                            <a href="https://www.facebook.com/clubfinancierocl" target="_blank"><i class="text-white p-auto fab fa-facebook
-               fa-2x"></i></a>
-
-                        </div>
-                    </div>
-                    <a type="button" href="#top" class="btn btn-lg btn-outline-warning" id="botonArriba"><i
-                            class="px-2 fas fa-chevron-up text-warning" aria-hidden="true"></i></a>
-                </div>
-
+          <div class="row">
+            <div class="col-sm-8">
+              <h6 class="text-white">Club Financiero © <strong> TODOS LOS DERECHOS RESERVADOS</strong></h6>
             </div>
+            <div class="col-sm-4">
+              <div class="row">
+                <div class="col p-2">
+                  <a href="https://www.instagram.com/clubfinancierocl" target="_blank"><i
+                      class="text-white fa-2x fab fa-instagram"></i></a>
+                </div>
+                <div class="col p-2">
+                  <a href="https://www.facebook.com/clubfinancierocl" target="_blank"><i
+                      class="text-white p-auto fab fa-facebook fa-2x"></i></a>
+    
+                </div>
+              </div>
+              <a type="button" href="#top" class="btn btn-lg btn-outline-warning" id="botonArriba"><i
+                  class="px-2 fas fa-chevron-up text-warning" aria-hidden="true"></i></a>
+            </div>
+    
+          </div>
         </div>
-    </footer>
+      </footer>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/scripts-all.js"></script>
+
 </body>
 </body>
 
