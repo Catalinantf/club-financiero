@@ -56,7 +56,7 @@ h4{
 }
 h2 {
   color: #fff;
-  font-size:2rem;
+  font-size:2.8rem;
   font-weight: 800;
 }
 h3{
@@ -116,8 +116,8 @@ a:hover {
   font-size: 4rem;
   font-weight: 800;
 animation: fadeIn 4s;
-
 }
+
 @keyframes fadeIn {
   from{
     opacity:0;
@@ -703,4 +703,58 @@ li {
   font-family: 'Montserrat';
   font-weight:800;
   font-size:3rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px 20px;
+}
+.grid-item img{
+  
+  filter:brightness(1);
+  transition: filter 0.2s linear 0.1s;
+ }
+.grid-item img:hover{
+ filter:brightness(1.5)
+  
+}
+/* Pantallas medianas (tablets de menos de 768px) */
+@media (max-width: 767.98px) {
+  h3{
+    font-size: 1.7rem;
+  } 
+  h2 , .hero h2{
+    font-size: 2rem;
+  } 
+  p {
+    font-size: 1rem;
+  }
+  .descipción-servicios-section span{
+    font: size 1.2rem;
+  }
+  .google-maps-seccion h4{
+    font-size: 1.2rem; 
+  }
+  
+  @keyframes fadeIn {
+    from{
+      opacity:0;
+      font-size: 1.8rem;
+      
+    }
+    to{
+      opacity: 1;
+      font-size: 2rem;
+    }
+    
+  }
+  .hero img{
+    padding-bottom: 20px;
+  }
+  .dot {
+    border-radius: 50%;
+    border: 1x solid #00103e;
+    padding:1.1rem;
+    color: #fff;
+   }
 }

@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -37,6 +40,7 @@
     <div id="top"></div>
     <!-- Navbar -->
     <div>
+
         <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
                 <div class="site-mobile-menu-close mt-3">
@@ -114,11 +118,11 @@
                                             <a href="./Nosotros.html"><span> Nosotros</span></a>
                                         </li>
                                         <li class="has-children">
-                                            <a href="#" class="active"><span>Productos</span></a>
+                                            <a href="#"><span>Productos</span></a>
                                             <ul class="dropdown arrow-top">
-                                                <li><a class="active" href="./gestion-credito.html">Gestión de
-                                                        crédito</a></li>
-                                                <li><a href="./corretaje-propiedades.html">Corretaje de propiedades</a></li>
+                                                <li><a href="./gestion-credito.html">Gestión de crédito</a></li>
+                                                <li><a href="./corretaje-propiedades.html">Corretaje de propiedades</a>
+                                                </li>
                                                 <li><a href="./gestion-documental.html">Gestión documental</a></li>
                                         </li>
                                         <li><a href="./preparacion-credito.html">Preparación de crédito</a></li>
@@ -130,14 +134,13 @@
                                         </a>
                                     </li>
                                     <li class="has-children">
-                                        <a href="educacion.html"><span> Educación</span></a>
+                                        <a href="#" class="active"><span>Educación</span></a>
                                         <ul class="dropdown arrow-top">
-                                          <li><a href="./conceptos.html">Conceptos</a></li>
-                                          <li><a href="./credito-hipotecario.html">Crédito Hipotecario</a></li>
-                                          <li><a href="./creditos-varios.html">Créditos Varios</a></li>
-                                      </li>
-                                    </ul>
-                                      </li>
+                                            <li><a href="./conceptos.html">Conceptos</a></li>
+                                            <li><a href="./credito-hipotecario.html">Crédito Hipotecario</a></li>
+                                            <li><a href="./creditos-varios.html">Créditos Varios</a></li>
+                                        </ul>
+                                    </li>
                                     <li>
                                         <a href="casos-exito.html"><span> Casos de Éxito</span></a>
                                     </li>
@@ -162,7 +165,8 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a type="button" class="btn btn-outline-warning py-2 px-3" href="contacto.html">Contacto</a>
+                                        <a type="button" class="btn btn-outline-warning py-2 px-3"
+                                            href="contacto.html">Contacto</a>
                                     </li>
                                     </ul>
                                 </div>
@@ -172,60 +176,195 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="hero pb-5" style="background-image: url('images/3hero.png')">
+    </div>
+    <div class="hero" style="background-image: url('images/3hero.png')">
         <img src="./images/logo CF.svg" alt="" style="width: 8rem;" />
-        <h2 class="pb-5">Gestión de Crédito</h2>
+        <h2>Créditos Varios</h2>
         <br>
     </div>
-    <!-- fin Navbar -->
-    <section class="section-quienes-somos container p-5">
-        <div class="row">
-            <div class="col-md-6">
-                <h3 class="text-center" class="p-5 m-3">Gestión de Crédito</h3>
-                <p class="my-5">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
-                    quisquam fugiat odio distinctio cupiditate eligendi tempora ea vero
-                    expedita laboriosam?
-                </p>
+
+    <section class="p-5">
+        <div class="grid-container">
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal">
+                        <img src="https://picsum.photos/640/400/?random=1" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/605e94e05940030d4f559163" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Crédito Prendario</h5>
+                </div>
             </div>
-            <div class="col-md-6 zoom">
-                <img src="./images/1hero.png" alt="" class="img-fluid p-3" />
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal0">
+                        <img src="https://picsum.photos/640/400/?random=2" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606fc21e200fc60d2d9f0198" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Crédito Autoconstrucción</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal1">
+                        <img src="https://picsum.photos/640/400/?random=3" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606cbe79b5773f0d67e38f63" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">¿Puede prescribir el CAE?</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal2">
+                        <img src="https://picsum.photos/640/400/?random=4" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6060fae2e44ee30d9ab744dd" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Crédito Compra de Cartera</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal3">
+                        <img src="https://picsum.photos/640/400/?random=5" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606ba779bcc5420da2922ae4" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Crédito Libre Disponibilidad</h5>
+                </div>
             </div>
         </div>
-    </section>
-    <section class="section-contactanos p-5">
-        <div class="section-contactanos-description my-5 py-5 text-center">
-            <h2 class="py-3">Lorem ipsum dolor sit amet.</h2>
-            <h6 class="py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, eaque?
-            </h6>
-        </div>
-    </section>
-    <section>
-        <div class="row container mx-auto">
-            <div class="col-md-6 p-5">
-                <h4 class="text-center" class="">Beneficios</h4>
-                <hr>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
-            </div>
-            <div class="col-md-6 p-5">
-                <h4 class="text-center" class="">Características</h4>
-                <hr>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                </ul>
-            </div>
     </section>
 
-    <section class="redes-sociales-section container mt-5 py-5">
+    <section class="redes-sociales-section container mt-5">
         <div class=" row">
             <div class="col-md text-center">
                 <a href="https://www.facebook.com/clubfinancierocl" target="_blank"
@@ -251,9 +390,6 @@
         </div>
     </section>
 
-
-
-    </section>
     <section class="google-maps-seccion">
         <div class="text-center">
             <img src="./images/logo CF.svg" alt="" />
@@ -348,6 +484,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
+</body>
 </body>
 
 </html>

@@ -10,10 +10,14 @@
     <!--Google Fonts-->
 
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300&display=swap"
-        rel="stylesheet" />
+
 
     <link rel="stylesheet" href="fonts/icomoon/style.css" />
 
@@ -114,14 +118,15 @@
                                             <a href="./Nosotros.html"><span> Nosotros</span></a>
                                         </li>
                                         <li class="has-children">
-                                            <a href="./productos.html"><span>Productos</span></a>
+                                            <a href="#"><span>Productos</span></a>
                                             <ul class="dropdown arrow-top">
                                                 <li><a href="./gestion-credito.html">Gestión de crédito</a></li>
-                                                <li><a href="#">Corretaje de propiedades</a></li>
-                                                <li><a href="#">Gestión documental</a></li>
+                                                <li><a href="./corretaje-propiedades.html">Corretaje de propiedades</a>
+                                                </li>
+                                                <li><a href="./gestion-documental.html">Gestión documental</a></li>
                                         </li>
-                                        <li><a href="#">Preparación de crédito</a></li>
-                                        <li><a href="#">Broker inmobiliario</a></li>
+                                        <li><a href="./preparacion-credito.html">Preparación de crédito</a></li>
+                                        <li><a href="./broker-inmobiliario.html">Broker inmobiliario</a></li>
                                     </ul>
                                     </li>
                                     <li>
@@ -131,9 +136,9 @@
                                     <li class="has-children">
                                         <a href="#" class="active"><span>Educación</span></a>
                                         <ul class="dropdown arrow-top">
-                                            <li><a class="active" href="#">Conceptos</a></li>
-                                            <li><a href="#">Crédito Hipotecario</a></li>
-                                            <li><a href="#">Créditos Varios</a></li>
+                                            <li><a class="active" href="./conceptos.html">Conceptos</a></li>
+                                            <li><a href="./credito-hipotecario.html">Crédito Hipotecario</a></li>
+                                            <li><a href="./creditos-varios.html">Créditos Varios</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -160,7 +165,8 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a type="button" class="btn btn-outline-warning py-2 px-3" href="contacto.html">Contacto</a>
+                                        <a type="button" class="btn btn-outline-warning py-2 px-3"
+                                            href="contacto.html">Contacto</a>
                                     </li>
                                     </ul>
                                 </div>
@@ -172,775 +178,1327 @@
         </div>
 
     </div>
-    <div class="hero" style="background-image: url('images/3hero.png')"></div>
+    <div class="hero" style="background-image: url('images/3hero.png')">
+        <img src="./images/logo CF.svg" alt="" style="width: 8rem;" />
+        <h2>Conceptos</h2>
+        <br>
+    </div>
 
-    <section class="bg-primary p-5">
-        <h2 class="text-white text-center pt-3">Conceptos</h2>
-        <hr size="10px" style="color: red;" class="text-white p-2">
+    <section class="p-5">
 
-        <div>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
+        <div class="grid-container">
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal">
+                        <img src="https://picsum.photos/640/400/?random=1" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
 
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
 
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/605e7cef5940030d4f558f3a"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/605e7cef5940030d4f558f3a" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Sistema Financiero</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal0">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/60660085aecacf0d7731633f"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Acreditar Renta</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal1">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/605eb12d5940030d4f5593c0"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">DICOM</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal2">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/605dee7ee44ee30d9ab7110f"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Cuenta Vista</h5>
-                        </div>
-                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Sistema Financiero</h5>
                 </div>
             </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal0">
+                        <img src="https://picsum.photos/640/400/?random=2" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
 
-            <!-- ========================= -->
-            <!-- FIN FILA 1 CARDS -->
-            <!-- ========================= -->
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
 
-            <hr size="10px" class="text-white p-2">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal3">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/6084361ed6f6550d62373ed9"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/60660085aecacf0d7731633f" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Seguros de Vida</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal4">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/606b1606bcc5420da29213d4"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Seguros Crediticios</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal5">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/6065fcbed1f9500d4b568f87"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Renuncia de Seguros</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal6">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/605ce3c723b6460cf6343106"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Plan Cuenta Corriente</h5>
-                        </div>
-                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Acreditar Renta</h5>
                 </div>
             </div>
-            <!-- ========================= -->
-            <!-- FIN FILA 2 CARDS -->
-            <!-- ========================= -->
-            <hr size="10px" class="text-white p-2">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal7">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal1">
+                        <img src="https://picsum.photos/640/400/?random=3" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
 
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
 
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/606b9b75bc7e370d494baa63"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/605eb12d5940030d4f5593c0" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">PAC interbancario</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal8">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/606fba0968aa9a0d22053ce1"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Refinanciamiento</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal9">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/606608b7d1f9500d4b569095"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Sernac</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal10">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/606894a7e583630d7066227d"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Boletín Comercial</h5>
-                        </div>
-                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">DICOM</h5>
                 </div>
             </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal2">
+                        <img src="https://picsum.photos/640/400/?random=4" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
 
-            <!-- ========================= -->
-            <!-- FIN FILA 3 CARDS -->
-            <!-- ========================= -->
-            <hr size="10px" class="text-white p-2">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal11">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
 
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/606fb6ab200fc60d2d9effec"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/605dee7ee44ee30d9ab7110f" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Refinanciamiento Expres</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal12">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/60639f02b2064f0d447ac871"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Mutuaria</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal13">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/6063da0fb2064f0d447ad05b"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Pagaré Clínico</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="card-body p-0 bg-info">
-                            <a href="" data-toggle="modal" data-target="#exampleModal16">
-                                <img src="./images/2hero.png" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    title="Haz click aquí para agrandar la imagen" class="card-img-top pb-3"
-                                    alt="lugar 1"></a>
-
-                            <!-- Modal 1 -->
-                            <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            <div style="width: 100%;">
-                                                <div
-                                                    style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
-                                                    <iframe frameborder="0" width="1200" height="675"
-                                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                                                        src="https://view.genial.ly/60637368aecacf0d77312ed2"
-                                                        type="text/html" allowscriptaccess="always"
-                                                        allowfullscreen="true" scrolling="yes"
-                                                        allownetworking="all"></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-header">
-                                            <button type="button" class="btn btn-primary"
-                                                data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Fin Modal -->
-                            <h5 class="card-title text-white fw-bold p-3">Negociación</h5>
-                        </div>
-                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Cuenta Vista</h5>
                 </div>
             </div>
-            <!-- ========================= -->
-            <!-- FIN FILA 4 CARDS -->
-            <!-- ========================= -->
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal3">
+                        <img src="https://picsum.photos/640/400/?random=5" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6084361ed6f6550d62373ed9" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Seguros de Vida</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal4">
+                        <img src="https://picsum.photos/640/400/?random=6" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606b1606bcc5420da29213d4" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Seguros Crediticios</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal5">
+                        <img src="https://picsum.photos/640/400/?random=7" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6065fcbed1f9500d4b568f87" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Renuncia de Seguros</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal6">
+                        <img src="https://picsum.photos/640/400/?random=8" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/605ce3c723b6460cf6343106" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Plan Cuenta Corriente</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal7">
+                        <img src="https://picsum.photos/640/400/?random=9" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606b9b75bc7e370d494baa63" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">PAC interbancario</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal8">
+                        <img src="https://picsum.photos/640/400/?random=10" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606fba0968aa9a0d22053ce1" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Refinanciamiento</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal9">
+                        <img src="https://picsum.photos/640/400/?random=11" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606608b7d1f9500d4b569095" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Sernac</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal10">
+                        <img src="https://picsum.photos/640/400/?random=12" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606894a7e583630d7066227d" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Boletín Comercial</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal11">
+                        <img src="https://picsum.photos/640/400/?random=13" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606fb6ab200fc60d2d9effec" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Refinanciamiento Expres</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal12">
+                        <img src="https://picsum.photos/640/400/?random=14" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/60639f02b2064f0d447ac871" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Mutuaria</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal13">
+                        <img src="https://picsum.photos/640/400/?random=15" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6063da0fb2064f0d447ad05b" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Pagaré Clínico</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal16">
+                        <img src="https://picsum.photos/640/400/?random=16" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/60637368aecacf0d77312ed2" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Negociación</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal17">
+                        <img src="https://picsum.photos/640/400/?random=17" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606107b474507f0da1158ab4" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Ingeniería Social</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal18">
+                        <img src="https://picsum.photos/640/400/?random=18" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/60653422d1f9500d4b568712" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">PAC</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal19">
+                        <img src="https://picsum.photos/640/400/?random=19" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606537f1d1f9500d4b568762" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">PAT</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal20">
+                        <img src="https://picsum.photos/640/400/?random=20" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606393ace583630d7065d649" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Compra en Blanco</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal22">
+                        <img src="https://picsum.photos/640/400/?random=22" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6064985baecacf0d773147e8" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Compra en Verde</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal23">
+                        <img src="https://picsum.photos/640/400/?random=23" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606e8b8d4a7d390d13cf8754" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Leasing Habitacional</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal24">
+                        <img src="https://picsum.photos/640/400/?random=24" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/605e1982e44ee30d9ab717fa" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">TC Retail</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal25">
+                        <img src="https://picsum.photos/640/400/?random=25" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal25" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606352aec026f60d49a8416e" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">TC Bancaria</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal26">
+                        <img src="https://picsum.photos/640/400/?random=26" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal26" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6063e45ae583630d7065e0c9" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Boleta de Garantía</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal27">
+                        <img src="https://picsum.photos/640/400/?random=27" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal27" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6069d40ce583630d706630bb" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Patrimonio</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal28">
+                        <img src="https://picsum.photos/640/400/?random=28" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal28" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6064c454aecacf0d77314e3b" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Tarjetas Prepago</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal29">
+                        <img src="https://picsum.photos/640/400/?random=29" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal29" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/60654529d1f9500d4b568822" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Cuenta de Ahorro</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal30">
+                        <img src="https://picsum.photos/640/400/?random=30" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal30" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/606b562c7c5a190d9c58b566" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Crédito Postgrado</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal31">
+                        <img src="https://picsum.photos/640/400/?random=31" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal31" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6068acdeb2064f0d447b1617" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Prestadoras</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal32">
+                        <img src="https://picsum.photos/640/400/?random=32" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal32" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6063eb31d1f9500d4b566b75" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Vale Vista</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal33">
+                        <img src="https://picsum.photos/640/400/?random=33" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal33" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/6063be50aecacf0d773139de" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Seguros Generales</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal21">
+                        <img src="https://picsum.photos/640/400/?random=21" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/605eb06e74507f0da1156e9b" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Análisis de Riesgo Crediticio</h5>
+                </div>
+            </div>
+            <div class="card h-100 grid-item border-warning">
+                <div class="card-body p-0 bg-primary">
+                    <a href="" data-toggle="modal" data-target="#exampleModal34">
+                        <img src="https://picsum.photos/640/400/?random=34" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom" title="Haz click aquí para agrandar la imagen"
+                            class="card-img-top pb-3" alt="lugar 1"></a>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="exampleModal34" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <div style="width: 100%;">
+                                        <div
+                                            style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                                            <iframe frameborder="0" width="1200" height="675"
+                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                                src="https://view.genial.ly/605f59b3e44ee30d9ab72e19" type="text/html"
+                                                allowscriptaccess="always" allowfullscreen="true" scrolling="yes"
+                                                allownetworking="all"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-header">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Modal -->
+                    <h5 class="card-title text-white fw-bold p-3">Banco</h5>
+                </div>
+            </div>
 
         </div>
 
     </section>
+    <!-- ========================= -->
+    <!-- FIN CARDS -->
+    <!-- ========================= -->
+    <section class="redes-sociales-section container mt-5">
+        <div class=" row">
+            <div class="col-md text-center">
+                <a href="https://www.facebook.com/clubfinancierocl" target="_blank"
+                    class="m-4 fa-7x fab fa-facebook"></a>
 
-    <section class="redes-sociales-section row">
-        <span class="col-md text-center">
-            <a href="https://www.facebook.com/clubfinancierocl" target="_blank"
-                class="p-4 fa-4x fab fa-facebook-square dot"></a>
+                <h6 class="pb-5">facebook</h6>
+            </div>
+            <span class="col-md text-center">
+                <a href="https://www.instagram.com/clubfinancierocl/" target="_blank"
+                    class="m-4 fa-4x dot fab fa-instagram"></a>
 
-            <h6 class="pb-5">facebook</h6>
-        </span>
-        <span class="col-md text-center">
-            <a href="https://www.instagram.com/clubfinancierocl/" target="_blank"
-                class="p-4 fa-4x fab fa-instagram-square dot"></a>
+                <h6 class="pb-5">instagram</h6>
+            </span>
+            <span class="col-md text-center">
+                <a href="mailto:contacto@clubfinanciero.cl" target="_blank" class="m-4 fa-4x dot fas fa-envelope"></a>
+                <h6 class="pb-5">e-mail</h6>
+            </span>
+            <span class="col-md text-center">
+                <a href="tel:+569 55281460" target="_blank" class="m-4 fa-4x dot fas fa-phone"></a>
 
-            <h6 class="pb-5">instagram</h6>
-        </span>
-        <span class="col-md text-center">
-            <a href="mailto:contacto@clubfinanciero.cl" target="_blank"
-                class="p-4 fa-4x fas fa-envelope-square dot"></a>
-            <h6 class="pb-5">e-mail</h6>
-        </span>
-        <span class="col-md text-center">
-            <a href="tel:+569 55281460" target="_blank" class="p-4 fa-4x fas fa-phone-square dot"></a>
-
-            <h6 class="pb-5">teléfono</h6>
-        </span>
+                <h6 class="pb-5">teléfono</h6>
+            </span>
+        </div>
     </section>
 
     <section class="google-maps-seccion">
         <div class="text-center">
-          <img src="./images/logo CF.svg" alt="" />
+            <img src="./images/logo CF.svg" alt="" />
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col">
-              <h4 class="text-center">menú</h4>
-              <ul class="google-maps-seccion-ul">
-                <li>
-                  <a href="./index.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>Inicio</a>
-                </li>
-                <li>
-                  <a href="./Nosotros.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>Nosotros</a>
-                </li>
-                <li>
-                  <a href="./contacto.html" target="_blank"><i class="px-2 fa fa-home" aria-hidden="true"></i>Contacto</a>
-                </li>
-              </ul>
+            <div class="row">
+                <div class="col">
+                    <h4 class="text-center">menú</h4>
+                    <ul class="google-maps-seccion-ul">
+                        <li>
+                            <a href="./index.html" target="_blank"><i class="px-2 fa fa-home"
+                                    aria-hidden="true"></i>Inicio</a>
+                        </li>
+                        <li>
+                            <a href="./Nosotros.html" target="_blank"><i class="px-2 fa fa-home"
+                                    aria-hidden="true"></i>Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="./contacto.html" target="_blank"><i class="px-2 fa fa-home"
+                                    aria-hidden="true"></i>Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="text-center">links relacionados</h4>
+                    <ul class="google-maps-seccion-ul">
+                        <li>
+                            <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>Dicom</a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>SBIF</a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>Camara de
+                                Comercio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="text-center">Horario</h4>
+                    <ul class="google-maps-seccion-ul">
+                        <li>
+                            <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Lun · Vie = 10:00 · 17:00
+                        </li>
+                        <li>
+                            <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Sábado = Cerrado
+                        </li>
+                        <li>
+                            <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Domingo = Cerrado
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
-              <h4 class="text-center">links relacionados</h4>
-              <ul class="google-maps-seccion-ul">
-                <li>
-                  <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>Dicom</a>
-                </li>
-                <li>
-                  <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>SBIF</a>
-                </li>
-                <li>
-                  <a href="" target="_blank"><i class="px-2 fa fa-check" aria-hidden="true"></i>Camara de Comercio</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col">
-              <h4 class="text-center">Horario</h4>
-              <ul class="google-maps-seccion-ul">
-                <li>
-                  <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Lun · Vie = 10:00 · 17:00
-                </li>
-                <li>
-                  <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Sábado = Cerrado
-                </li>
-                <li>
-                  <i class="px-2 fa fa-clock-o" aria-hidden="true"></i> Domingo = Cerrado
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
         <div class="google-maps py-5 text-center">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.280796305413!2d-70.65472798577304!3d-33.44199018077635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a6bf2b3071%3A0xe27a85525d46999c!2sMoneda%201137%2C%20Santiago%2C%208340457%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1656711190268!5m2!1sen!2scl"
-            width="75%" height="200" style="border: 0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade" class="my-3"></iframe>
-          <p class="pt-3 text-center">
-            RAZÓN SOCIAL = Club Financiero · | RUT = | REPRESENTANTE LEGAL = RUT:
-          </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.280796305413!2d-70.65472798577304!3d-33.44199018077635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a6bf2b3071%3A0xe27a85525d46999c!2sMoneda%201137%2C%20Santiago%2C%208340457%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1656711190268!5m2!1sen!2scl"
+                width="75%" height="200" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="my-3"></iframe>
+            <h6 class="pt-3 text-center">
+                RAZÓN SOCIAL = Club Financiero · | RUT = | REPRESENTANTE LEGAL = RUT:
+            </h6>
         </div>
-      </section>
+    </section>
     <footer class="p-5 bg-primary">
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-8">
-              <h6 class="text-white">Club Financiero © <strong> TODOS LOS DERECHOS RESERVADOS</strong></h6>
+            <div class="row">
+                <div class="col-sm-8">
+                    <h6 class="text-white">Club Financiero © <strong> TODOS LOS DERECHOS RESERVADOS</strong></h6>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col p-2">
+                            <a href="https://www.instagram.com/clubfinancierocl" target="_blank"><i
+                                    class="text-white fa-2x fab fa-instagram"></i></a>
+                        </div>
+                        <div class="col p-2">
+                            <a href="https://www.facebook.com/clubfinancierocl" target="_blank"><i
+                                    class="text-white p-auto fab fa-facebook fa-2x"></i></a>
+
+                        </div>
+                    </div>
+                    <a type="button" href="#top" class="btn btn-lg btn-outline-warning" id="botonArriba"><i
+                            class="px-2 fas fa-chevron-up text-warning" aria-hidden="true"></i></a>
+                </div>
+
             </div>
-            <div class="col-sm-4">
-              <div class="row">
-                <div class="col p-2">
-              <a href="https://www.instagram.com/clubfinancierocl" target="_blank"><i class="text-white fa-2x fab fa-instagram"></i></a>
-            </div>
-            <div class="col p-2">
-              <a href="https://www.facebook.com/clubfinancierocl" target="_blank"><i class="text-white p-auto fab fa-facebook fa-2x"></i></a>
-    
-                  </div>
-             </div>
-              <a type="button" href="#top" class="btn btn-lg btn-outline-warning" id="botonArriba" ><i class="px-2 fas fa-chevron-up text-warning" aria-hidden="true"></i></a>
-            </div>
-    
-          </div>
         </div>
-      </footer>
+    </footer>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

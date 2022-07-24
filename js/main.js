@@ -120,7 +120,7 @@ $(function () {
 });
 
 function contador() {
-	setInterval(intervalo, 15);
+	setInterval(intervalo, 50);
 	x = 0;
 	let clases = $("*[data-valor]");
 	function intervalo() {
