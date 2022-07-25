@@ -36,7 +36,7 @@ function doSearch(firstSearch) {
           stageFriendlyName = "Blanco";
         }
         var projectHTML = "";
-        projectHTML += `<div class="card m-2" style="width: 18rem;" >`;
+        projectHTML += `<div class="card" style="width: 18rem;" >`;
         projectHTML += `<img class="card-img-top" src="https://api.jetbrokers.io/api/gallery/download/u1RDEkTX/${response[key].cover} "/>`;
         projectHTML += `<div class="card-body">`;
         projectHTML += `<span><h5 class="card-title text-secondary">${response[key].locality}</h5></span>`;
@@ -70,15 +70,29 @@ function doSearch(firstSearch) {
           }
         }
       }
-  //update the proyects counter
-  $("#projectsCounter1").html(counter);  //this updates on every search, so the search results total gets updated
-  if (firstSearch == 1) {
-    //only update on first search, so the total number of proyects show up
-    $("#projectsCounter2").html(counter); 
-  }
+      //update the proyects counter
+      $("#projectsCounter1").html(counter);  //this updates on every search, so the search results total gets updated
+      if (firstSearch == 1) {
+        //only update on first search, so the total number of proyects show up
+        $("#projectsCounter2").html(counter);
+      }
     },
   });
 }
+
+// const d = document;
+// function searchFilters(input, selector) {
+//   d.addEventListener("keyup", (e) => {
+// if(e.target.matches(input)){
+//   d.querySelector(selector).forEach((el)=>
+//   el.textContent.toLowerCase().includes(e.target.value)
+//   ?el.classList.remove("filter")
+//   :el.classList.add("filter")
+//   );
+// }
+//   });
+// }
+
 
 $(document).ready(function () {
   doSearch(1);

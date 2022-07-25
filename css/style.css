@@ -758,3 +758,19 @@ li {
     color: #fff;
    }
 }
+#projects_results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px 20px;
+}
+
+/* .card-search {
+  transition: all 0.3s ease-out;
+}
+
+.filter-search { */
+  /* display: none; */
+  /* visibility: hidden;
+  opacity: 0;
+  order: 1;
+} */
